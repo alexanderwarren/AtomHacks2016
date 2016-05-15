@@ -1,0 +1,68 @@
+body{
+	background-color:#ccf2ff;
+	margin-left: 2%;
+	font-family: 'Open Sans', sans-serif;
+	background-image:url("background.jpg");
+	}
+
+input{
+	width:24px;
+	height:18x;
+	margin: 4px;
+	 padding: 7px;
+	border: none;
+	border-bottom: solid 2px #c9c9c9;
+	transition: border 0.3s;
+	
+	}
+	
+. input[type="text"]:focus {
+  border-bottom: solid 2px #969696;
+}
+
+
+input[type="text"].focus {
+  border-bottom: solid 2px #969696;
+}
+
+
+.broken{background-color:red;}
+.fixed{background-color:white;}
+h1{font-size: 54px;}
+
+p{
+	font-size: 24px;	
+	padding-right:20%;
+	}
+#nextButton{
+	width: 54px;
+	border-radius: 15px;
+	background-color: green;
+	color: white;
+	font-weight:bold;
+	padding: 5px;
+	float:right;
+	text-align:center;
+	margin-right:1%;
+	margin-bottom: 1%;
+}
+
+#error{color:red;}
+
+#courseList{
+	background-color:rgba(255,255,255,0.6);
+	border-radius: 10px;
+	width:100%;
+	}
+ul{list-style:none;
+font-size:15pt;
+line-height: 250%
+}
+
+input{
+ 
+}
+input{focus,
+.style-4 input[type="text"].focus {
+  border-bottom: solid 2px #969696;
+}

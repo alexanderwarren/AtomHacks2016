@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Course Selection Simulator</title>
+	<link rel="stylesheet" type="text/css" href="./Style.css">
+	<script src="./SelectionPageCode.js"></script>
+</head>
+
+
+<body>
+	<h1 align="center"> Course Selection Simulator </h1>
+	<div id="error"></div>
+	<p> Fill in the grades of the english classes that you have taken or are taking now. (Leave grade blank for classes you have not taken.) </p>
+	<ul id="englishClasses">
+		<li>English 9 <input type="text" id = "eng9" class = "english"></li> 
+		<li>English 10 <input type="text" id = "eng10" class = "english"></li> 
+		<li>Honors Speech <input type="text" id = "speech" class = "english"></li> 
+		<li>American Literature <input type="text" id = "eng11" class = "english"></li> 
+		<li>AP English Language <input type="text" id = "aplang" class = "english"></li> 
+		<li>World Literature <input type="text" id = "eng12" class = "english"></li> 
+		<li>Honors Creative Writing <input type="text" id = "creative" class = "english"></li> 
+		<li>AP English Literature <input type="text" id = "aplit" class = "english"></li> 
+		<li>Debate Team <input type="text" id = "debate" class = "english"></li> 
+		<li>Journalism <input type="text" id = "journalism" class = "english"></li> 
+		<li>Graphic Design <input type="text" id = "graphic" class = "english"></li> 
+		<li>Rhetoric and Composition <input type = "text" id = "comp" class = "english"> </li>
+		<li>Writing Seminar <input type = "text" id = "writesemi" class = "english"> </li>
+
+	</ul>
+	
+	
+<div id="nextButton" align="center" onclick="getAnswers(&quot;English&quot;, &quot;SocialStudies&quot;)">Next</div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Course Selection Simulator</title>
+	<link rel="stylesheet" type="text/css" href="./Style.css">
+	<script src="./SelectionPageCode.js"></script>
+</head>
+
+
+<body>
+	<h1 align="center"> Course Selection Simulator </h1>
+	<div id="error"></div>
+	<p> Fill in the grades of the biology classes that you have taken or are taking now. (Leave grade blank for classes you have not taken.) </p>
+	<ul id="biologyClasses">
+		<li>Regents Biology<input type = "text" id="bio" class = "biology"> </li>
+		<li>Honors Regents Biology <input type = "text" id="honorbio" class = "biology"> </li>
+		<li>AP Biology <input type = "text" id="apbio" class = "biology"> </li>
+		<li>Reserach Literacy <input type = "text" id="relit" class = "biology"> </li>
+		<li>Sophomore Biology Research <input type = "text" id="sophbiointel" class = "biology"> </li>
+		<li>Junior Biology Research <input type = "text" id="junbiointel" class = "biology"> </li>
+		<li>Senior Biology Intel <input type = "text" id="seniorbiointel" class = "biology"> </li>
+		<li>Post AP Genetics <input type = "text" id="genetics" class = "biology"> </li>
+		<li>AP Psychology <input type = "text" id="psych" class = "biology"> </li>
+		<li>Post AP Psychology <input type = "text" id="postpsych" class = "biology"> </li>
+		<li>AP Environmental Science <input type = "text" id="apes" class = "biology"> </li>
+		<li>Microbiology <input type = "text" id="microbio" class = "biology"> </li>
+		<li>Nutritional Science <input type = "text" id="nutri" class = "biology"> </li>
+		<li>Forensic Science <input type = "text" id="forensic" class = "biology"> </li>
+		<li>Animal Behavior <input type = "text" id="animal" class = "biology"> </li>
+		<li>Sustainable Bronx Science/Horticulture <input type = "text" id="horticulture" class = "biology"> </li>
+		<li>Epidemeology <input type = "text" id="epi" class = "biology"> </li>
+		<li>Marine Biology <input type = "text" id="marinebio" class = "biology"> </li>
+	</ul>
+	
+	
+<div id="nextButton" align="center" onclick="getAnswers(&quot;Biology&quot;, &quot;PhysicalScience&quot;)">Next</div>
+</body>
+</html>

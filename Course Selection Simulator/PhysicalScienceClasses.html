@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Course Selection Simulator</title>
+	<link rel="stylesheet" type="text/css" href="./Style.css">
+	<script src="./SelectionPageCode.js"></script>
+</head>
+
+
+<body>
+	<h1 align="center"> Course Selection Simulator </h1>
+	<div id="error"></div>
+	<p> Fill in the grades of the Physical Science classes that you have taken or are taking now. (Leave grade blank for classes you have not taken.) </p>
+	<ul id="physicalSciClasses">
+		<li>Regents Chemistry <input type = "text" id="chem" class = "physicalscience"> </li>
+		<li>Honors Regents Chemistry <input type = "text" id="honorschem" class = "physicalscience"> </li>
+		<li>AP Chemistry <input type = "text" id="apchem" class = "physicalscience"> </li>
+		<li>Post AP Chemistry <input type = "text" id="postapchem" class = "physicalscience"> </li>
+		<li>Regents Physics <input type = "text" id="physics" class = "physicalscience"> </li>
+		<li>AP Physics 1 <input type = "text" id="app1" class = "physicalscience"> </li>
+		<li>AP Physics 2 <input type = "text" id="app2" class = "physicalscience"> </li>
+		<li>AP Physics C <input type = "text" id="appc" class = "physicalscience"> </li>
+		<li>Post AP Physics <input type = "text" id="postapphysics" class = "physicalscience"> </li>
+		<li>Sophomore Physical Science Intel <input type = "text" id="sophphysicalsciintel" class = "physicalscience"> </li>
+		<li>Junior Physical Science Intel <input type = "text" id="junphysicalsciintel" class = "physicalscience"> </li>
+		<li>Senior Physical Science Intel <input type = "text" id="senphysicalsciintel" class = "physicalscience"> </li>
+		<li>Elements of Engineering Design <input type = "text" id="engineeringdesign" class = "physicalscience"> </li>
+		<li>Digital Engineering <input type = "text" id="digeng" class = "physicalscience"> </li>
+		<li>Experimental Engineering <input type = "text" id="expeng" class = "physicalscience"> </li>
+		<li>Astronomy <input type = "text" id="astronomy" class = "physicalscience"> </li>
+		<li>Introduction to Organic Chemistry <input type = "text" id="orgo" class = "physicalscience"> </li>
+		<li>Physics of Technical Theatre <input type = "text" id="physicsoftheatre" class = "physicalscience"> </li>
+
+	</ul>
+	
+	
+<div id="nextButton" align="center" onclick="getAnswers(&quot;PhysicalScience&quot;, &quot;ForeignLanguage&quot;)">Next</div>
+</body>
+</html>

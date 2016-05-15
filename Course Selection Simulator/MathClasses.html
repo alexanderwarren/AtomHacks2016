@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Course Selection Simulator</title>
+	<link rel="stylesheet" type="text/css" href="./Style.css">
+	<script src="./SelectionPageCode.js"></script>
+</head>
+
+
+<body>
+	<h1 align="center"> Course Selection Simulator </h1>
+	<div id="error"></div>
+	
+	<p> Fill in the grades of the math classes that you have taken or are taking now. (Leave grade blank for classes you have not taken.) </p>
+	<ul id="mathClasses">
+		<li>Algebra 1 <input type="text" id="alg1" class="math"></li>
+		<li>Geometry <input type="text" id="geo" class="math"></li> 
+		<li>Honors Geometry <input type="text" id="hongeo" class="math"></li> </li> 
+		<li>Algebra 2/Trig <input type="text" id="alg2" class="math"></li>
+		<li>Honors Algebra 2/Trig <input type="text" id="honalg2" class="math"></li> 
+		<li>Precalculus <input type="text" id="precalc" class="math"></li> 
+		<li>Honors Precalculus <input type="text" id="honprecalc" class="math"></li> 
+		<li>Calculus <input type="text" id="calc" class="math"></li> 
+		<li>AP Calculus AB <input type="text" id="apcalcab" class="math"></li> 
+		<li>AP Calculus BC <input type="text" id="apcalcbc" class="math"></li> 
+		<li>Multivariable Calculus <input type="text" id="multi" class="math"></li> 
+		<li>Linear Algebra <input type="text" id="linear" class="math"></li> 
+		<li>Statistics <input type="text" id="stat" class="math"></li> 
+		<li>AP Statistics <input type="text" id="apstat" class="math"></li> 
+		<li>Coding for All <input type = "text" id = "codingforall"</all>
+		<li>CompSci Projects <input type="text" id="compsci" class="math"></li> 
+		<li>AP Computer Science A <input type="text" id="apjava" class="math"></li> 
+		<li>App Development <input type="text" id="appdev" class="math"></li> 
+		<li>Game Development <input type="text" id="gamedev" class="math"></li> 
+		<li>Robotics <input type="text" id="robotics" class="math"></li> 
+		<li>Math Team 9 <input type="text" id="team9" class="math"></li> 
+		<li>Math Team 10 <input type="text" id="team10" class="math"></li> 
+		<li>Math Team 11 <input type="text" id="team11" class="math"></li> 
+		<li>Math Team 12 <input type="text" id="team12" class="math"></li>
+		<li>Sophomore Math Research <input type="text" id="sophmathintel" class="math"></li> 
+		<li>Junior Math Research <input type="text" id="junmathintel" class="math"></li>
+		<li>Senior Math Research <input type="text" id="senmathintel" class="math"></li> 
+	</ul>
+	
+	
+<div id="nextButton" align="center" onclick="getAnswers(&quot;Math&quot;, &quot;English&quot;)">Next</div>
+</body>
+</html>
